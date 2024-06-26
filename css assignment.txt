@@ -1,0 +1,27 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-template-rows: repeat(3, 100px); /* 3 rows each 100px tall */
+    gap: 10px; /* Gap between grid items */
+    margin: 20px auto; /* Centering the grid container */
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  /* Styling for grid items */
+  .item {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* White text color */
+    font-size: 24px; /* Font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
